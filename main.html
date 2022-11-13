@@ -47,7 +47,7 @@
                 <li class="navbar-email">email@example.com</li>
                 <li class="navbar-shopping-cart">
                     <img src="./icons/icon_shopping_cart.svg" alt="Shopping Cart">
-                    <div>6</div>
+                    <div>3</div>
                 </li>
             </ul>
         </div>
@@ -111,7 +111,7 @@
         </div>
     </nav>
 
-    <aside class="product-detail inactive">
+    <aside id="shoppingCartContainer" class="inactive">
         <div class="title-container">
             <img src="./icons/flechita.svg" alt="arrow" >
             <h1 class="title">Shopping Cart</h1>
@@ -127,37 +127,8 @@
                 <p>$3000,00</p>
                 <img src="./icons/icon_close.png" alt="close">      
             </div>
-    
-            <div class="shopping-cart">
-                <figure>
-                    <img src="https://images.pexels.com/photos/1191109/pexels-photo-1191109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="bike">
-                </figure>
-                <p>MotorBike</p>
-                <p>$3000,00</p>   
-                <img src="./icons/icon_close.png" alt="close">      
-
-            </div>
-    
-            <div class="shopping-cart">
-                <figure>
-                    <img src="https://images.pexels.com/photos/1191109/pexels-photo-1191109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="bike">
-                </figure>
-                <p>MotorBike</p>
-                <p>$3000,00</p>  
-                <img src="./icons/icon_close.png" alt="close">      
-
-            </div>
-    
-            <div class="shopping-cart">
-                <figure>
-                    <img src="https://images.pexels.com/photos/1191109/pexels-photo-1191109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="bike">
-                </figure>
-                <p>MotorBike</p>
-                <p>$3000,00</p>      
-                <img src="./icons/icon_close.png" alt="close">      
-
-            </div>
-    
+               
+   
             <div class="shopping-cart">
                 <figure>
                     <img src="https://images.pexels.com/photos/1191109/pexels-photo-1191109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="bike">
@@ -182,13 +153,30 @@
                 <p>
                     <span>Total</span>
                 </p>
-                <p>$50.060,00</p>
+                <p>$12.000,00</p>
             </div>
 
             <button class="primary-button add-to-cart-button">
                 Checkout
             </button>
         </div>        
+    </aside>
+
+    <aside id="productDetail" class="inactive">
+        <div class="product-detail-close">
+            <img src="./icons/icon_close.png" alt="close">
+        </div>
+        <img src="https://images.pexels.com/photos/1191109/pexels-photo-1191109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="MotorBike">
+        <div class="product-info">
+            <p>$3000,00</p>
+            <p>MotorBike</p>
+            <p>With its functional an practical Motorbike which has an advanced level of technology, to travel with you wherever you want </p>
+            <button class="primary-button add-to-cart-button">
+                <img src="./icons/bt_add_to_cart.svg" alt="add to cart">
+                Add to cart
+            </button>
+
+        </div>
     </aside>
 
     <section class="main-container">
